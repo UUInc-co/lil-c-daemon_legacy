@@ -40,6 +40,7 @@
 
 ## Results
 
+Executing `tail` while sampledaemon is running:
 ```shell
 sysop@salish:~/development/embedded/lil-c-daemon/src$ ./sampledaemon && tail -f /var/log/syslog
     Sep 22 09:32:47 salish lilcdaemon[29266]: Sample Program output test #0
@@ -51,11 +52,27 @@ sysop@salish:~/development/embedded/lil-c-daemon/src$ ./sampledaemon && tail -f 
     Sep 22 09:32:53 salish lilcdaemon[29266]: Sample Program output test #6
 ```
 
+Executing `ps` while sampledaemon is running:
+```shell
+sysop@salish:~/development/Embedded/lil-c-daemon$ ps -auxf | grep -i sampledaemo[n]
+    USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+    sysop    10007  0.0  0.0   4516    76 ?        Ss   09:56   0:00 ./sampledaemon
+```
+
+## Todo
+
+    1. Add build instructions for cross compilation on Openwrt/LEDE
+    2. Create sample init scripts for Openwrt/LEDE
+    3. Test on Raspberry PI and other Single Board Computers
+    4. Clean up and normalize code
+    5. Add optional additional features and more usage examples
+    6. Test
+
 ## Contributing
 
     1. Why? It's terrible right now, so why not?
     2. Create an Issue
-    5. Submit a Pull Request
+    3. Submit a Pull Request
 
 ## History
 
