@@ -8,7 +8,7 @@
 
     Add the following in your code of your main file you want to daemonize.
 
-###Example 0
+### Code Usage Example 0
 
     #include "lilcdaemon.h"
 
@@ -18,7 +18,7 @@
        exit(-1);
     }
 
-###Example 1
+### Code Usage Example 1
 
     #include "lilcdaemon.h"
 
