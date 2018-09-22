@@ -15,21 +15,21 @@
 
 int main(int argc, char* argv[]){
 
-    int x;
+        int x;
 
-    openlog("lilcdaemon", LOG_CONS | LOG_PID | LOG_NDELAY, LOG_DAEMON);
+        openlog("lilcdaemon", LOG_CONS | LOG_PID | LOG_NDELAY, LOG_DAEMON);
 
-    if ( lilcdaemon(0, "/", 1, 1) != 0 ){
-        syslog(LOG_INFO, "%s", "Failed to Daemonize.");
+        if ( lilcdaemon(0, "/", 1, 1) != 0 ) {
+                syslog(LOG_INFO, "%s", "Failed to Daemonize.");
+                closelog();
+                exit(-1);
+        }
+
+        for( x = 0; x < 100; x = x + 1 ) {
+                sleep(1);
+                syslog(LOG_INFO, "Sample Program output test #%i", x);
+        }
+
         closelog();
-        exit(-1);
-    }
-
-    for( x = 0; x < 100; x = x + 1 ){
-        sleep(1);
-        syslog(LOG_INFO, "Sample Program output test #%i", x);
-    }
-
-    closelog();
-    return (0);
+        return (0);
 }
