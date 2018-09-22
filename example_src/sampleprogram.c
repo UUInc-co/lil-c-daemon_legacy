@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <syslog.h>
-#include "lilcdaemon.h"
+#include "../src/lilcdaemon.h"
 
 int main(int argc, char* argv[]){
 
