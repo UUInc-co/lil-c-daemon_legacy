@@ -30,9 +30,7 @@
 
 ## Compile
 
-    //Will add command for cross compiling w/ Openwrts Toolchain
-
-    gcc -std=gnu99 -o sampledaemon ./src/sampleprogram.c ./src/lilcdaemon.c -lm
+    gcc -std=gnu99 -o sampledaemon ./example_src/sampleprogram.c ./src/lilcdaemon.c -lm
 
 ## Usage
 
