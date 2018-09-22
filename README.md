@@ -39,15 +39,16 @@
     sudo ./sampledaemon
 
 ## Results
-```C
-    sysop@salish:~/development/embedded/lil-c-daemon/src$ ./sampledaemon && tail -f /var/log/syslog
-        Sep 22 09:32:47 salish lilcdaemon[29266]: Sample Program output test #0
-        Sep 22 09:32:48 salish lilcdaemon[29266]: Sample Program output test #1
-        Sep 22 09:32:49 salish lilcdaemon[29266]: Sample Program output test #2
-        Sep 22 09:32:50 salish lilcdaemon[29266]: Sample Program output test #3
-        Sep 22 09:32:51 salish lilcdaemon[29266]: Sample Program output test #4
-        Sep 22 09:32:52 salish lilcdaemon[29266]: Sample Program output test #5
-        Sep 22 09:32:53 salish lilcdaemon[29266]: Sample Program output test #6
+
+```shell
+sysop@salish:~/development/embedded/lil-c-daemon/src$ ./sampledaemon && tail -f /var/log/syslog
+    Sep 22 09:32:47 salish lilcdaemon[29266]: Sample Program output test #0
+    Sep 22 09:32:48 salish lilcdaemon[29266]: Sample Program output test #1
+    Sep 22 09:32:49 salish lilcdaemon[29266]: Sample Program output test #2
+    Sep 22 09:32:50 salish lilcdaemon[29266]: Sample Program output test #3
+    Sep 22 09:32:51 salish lilcdaemon[29266]: Sample Program output test #4
+    Sep 22 09:32:52 salish lilcdaemon[29266]: Sample Program output test #5
+    Sep 22 09:32:53 salish lilcdaemon[29266]: Sample Program output test #6
 ```
 
 ## Contributing
