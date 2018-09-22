@@ -68,5 +68,5 @@ sysop@salish:~/development/embedded/lil-c-daemon/src$ ./sampledaemon && tail -f 
 
 ## License
 
-    GNU GPLv3
+    MIT
     https://github.com/youdouble/lil-c-daemon/blob/master/LICENSE
