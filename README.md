@@ -1,8 +1,8 @@
 # Lil C Daemon
 
     Little C Daemon is just that, a small simple program that
-    daemonizes your embedded linux programs. Just link it in your script
-    and call it.
+    daemonizes your Linux programs. Just link it in your script
+    and call it. It will be optimized for embedded Linux applications and other low memory systems. 
 
 ## Installation
 
