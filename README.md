@@ -3,9 +3,6 @@
     Little C Daemon is just that, a small simple program that
     daemonizes your Linux programs. Just link it in your script
     and call it. It will be optimized for embedded Linux applications and other low memory systems. 
-    
-    The `Legacy` connotation is based on the following: 
-   [Man 7 Definition SysV](https://www.freedesktop.org/software/systemd/man/daemon.html#SysV%20Daemons "SysV Daemons")
 
 ## Installation
 
@@ -88,3 +85,6 @@ sysop@salish:~/development/Embedded/lil-c-daemon$ ps -auxf | grep -i sampledaemo
 
     MIT
     https://github.com/youdouble/lil-c-daemon/blob/master/LICENSE
+
+### Note:    
+The `Legacy` connotation is based on the following: [Man 7 Definition SysV](https://www.freedesktop.org/software/systemd/man/daemon.html#SysV%20Daemons "SysV Daemons")
