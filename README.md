@@ -4,7 +4,7 @@
     daemonizes your Linux programs. Just link it in your script
     and call it. It will be optimized for embedded Linux applications and other low memory systems. 
     
-    The `Legacy` connotation is based on the (Man 7 Definition SysV)[https://www.freedesktop.org/software/systemd/man/daemon.html#SysV%20Daemons]
+    The `Legacy` connotation is based on the [Man 7 Definition SysV](https://www.freedesktop.org/software/systemd/man/daemon.html#SysV%20Daemons)
 
 ## Installation
 
